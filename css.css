@@ -39,6 +39,14 @@ h3 {
   font-size: 1.2rem;
   text-shadow: 0 0 40px rgb(0, 0, 50);
 }
+h4 {
+  color: #fff;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-shadow: 0 0 40px rgb(0, 0, 50);
+}
 
 p {
   color: #fff;
@@ -131,7 +139,6 @@ body {
 
 .im {
   width: 98%;
-
 }
 
 .h3ma {
@@ -146,7 +153,7 @@ body {
   flex-wrap: wrap;
 }
 
-.work1 .work2 {
+.work1 .work2 .work4 .work3 {
   margin: 10px auto;
   padding: 5px 10px;
   box-sizing: border-box;
@@ -161,6 +168,19 @@ body {
 .work2 {
   width: 30%;
   margin: 6%;
+}
+.work3 {
+  width: 28%;
+}
+
+.work4 {
+  width: 50%;
+  margin: 1%;
+}
+.work5 {
+  width: 12%;
+  position: relative;
+  top: 18px;
 }
 
 .rogos {
@@ -258,8 +278,20 @@ body {
 }
 
 .URL {
-  color: #4997c5;
+  color: #b5d5e7;
   font-size: 0.7rem;
+}
+.URL2 {
+  color: #ceaaaa;
+  font-size: 0.7rem;
+}
+.URL3 {
+  color: #ff8080;
+  font-size: 0.7rem;
+}
+.URL4 {
+  color: #b5d5e7;
+  font-size: 1rem;
 }
 
 iframe {
@@ -333,6 +365,15 @@ iframe {
     width: 100%;
   }
   .work2 {
+    width: 100%;
+  }
+  .work3 {
+    width: 100%;
+  }
+  .work4 {
+    width: 100%;
+  }
+  .work5 {
     width: 100%;
   }
 }
