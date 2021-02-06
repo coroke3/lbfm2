@@ -350,19 +350,19 @@ iframe {
     margin-right: 10%;
   }
   .rogo1 {
-    width: 30%;
+    width: 25%;
     margin: 0;
   }
   .rogo2 {
-    width: 200px;
+    width: 210px;
   }
   .bleak {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   #maru {
-    height: 10px;
+    height: 15px;
     position: relative;
-    top: 1px;
+    top: 3px;
   }
   .work1 {
     width: 100%;
