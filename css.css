@@ -17,7 +17,7 @@ h1 {
   margin: 50px;
   position: relative;
   z-index: 3;
-  text-shadow: 0 0 30px rgb(0, 0, 50);
+  text-shadow: 0 0 10px rgb(190 190 255);
   letter-spacing: 40px;
 }
 
@@ -27,7 +27,7 @@ h2 {
   font-weight: 800;
   font-style: italic;
   font-size: 2.3rem;
-  text-shadow: 0 0 40px rgb(0, 0, 50);
+  text-shadow: 0 0 10px rgb(190 190 255);
   padding: 60px 0 0 0;
 }
 
@@ -37,15 +37,15 @@ h3 {
   font-weight: 700;
   font-style: italic;
   font-size: 1.2rem;
-  text-shadow: 0 0 40px rgb(0, 0, 50);
+  text-shadow: 0 0 10px rgb(190 190 255);
 }
 h4 {
   color: #fff;
-  font-family: source-han-sans-japanese, sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 1.2rem;
-  text-shadow: 0 0 40px rgb(0, 0, 50);
+  font-family: kozuka-mincho-pr6n, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  text-shadow: 0 0 10px rgb(190 190 255);
 }
 
 p {
@@ -55,7 +55,7 @@ p {
   font-style: italic;
   margin: 2%;
   font-size: 1rem;
-  text-shadow: 0 0 30px rgb(0, 0, 50);
+  text-shadow: 0 0 10px rgb(190 190 255);
   text-decoration: none;
 }
 
@@ -67,7 +67,10 @@ p {
 
 .notma {
   margin: 0;
-  text-shadow: 40px 40px 40px rgb(0, 0, 50);
+  text-shadow: 0 0 10px rgb(190 190 255);
+}
+.imshadow {
+  box-shadow: 0 0 30px rgb(190, 190, 255);
 }
 
 a {
@@ -99,7 +102,7 @@ body {
 #rogo {
   border-radius: 50%;
   width: 300px;
-  box-shadow: 0 0 50px rgb(233, 227, 255);
+  box-shadow: 0 0 30px rgb(190, 190, 255);
 }
 
 .items {
@@ -133,7 +136,7 @@ body {
   margin: 15px 0px 15px 0px;
   font-size: 1.1rem;
   color: #fff;
-  text-shadow: 0 0 10px rgb(203, 188, 255);
+  text-shadow: 0 0 10px rgb(189, 188, 255);
   text-decoration: none;
 }
 
@@ -166,8 +169,8 @@ body {
 }
 
 .work2 {
-  width: 30%;
-  margin: 6%;
+  width: 35%;
+  margin: auto;
 }
 .work3 {
   width: 28%;
@@ -295,7 +298,7 @@ body {
 }
 
 iframe {
-  box-shadow: 0 0 50px rgb(233, 227, 255);
+  box-shadow: 0 0 30px rgb(190, 190, 255);
   margin: auto;
 }
 #jikan {
@@ -371,10 +374,31 @@ iframe {
     width: 100%;
   }
   .work4 {
-    width: 100%;
+    width: 60%;
+    margin: 20px 2% 100px 2%;
   }
   .work5 {
-    width: 100%;
+    width: 35%;
+    margin: 20px 0px 100px 0px;
+    top: 0;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .URL {
+    font-size: 0.6rem;
+  }
+  .URL2 {
+    font-size: 0.6rem;
+  }
+  .URL3 {
+    font-size: 0.6rem;
   }
 }
 
