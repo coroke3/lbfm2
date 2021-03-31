@@ -150,10 +150,14 @@ body {
 }
 
 .works {
-  margin: 4%;
+  margin: 1% auto 1% auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  max-width: 1000px;
+}
+#gyaku {
+  flex-flow: row-reverse;
 }
 
 .work1 .work2 .work4 .work3 {
@@ -165,12 +169,16 @@ body {
 }
 
 .work1 {
-  width: 50%;
+  width: 600px;
+  margin: 0;
 }
 
 .work2 {
-  width: 35%;
-  margin: auto;
+  width: 300px;
+  margin: 50px;
+}
+.work6 {
+  width: 0px;
 }
 .work3 {
   width: 28%;
@@ -185,7 +193,20 @@ body {
   position: relative;
   top: 18px;
 }
-
+.dekamoji {
+  opacity: 0.2;
+  width: 250px;
+  position: relative;
+  top: -100px;
+  right: 280px;
+}
+.dekamoji2 {
+  opacity: 0.2;
+  width: 250px;
+  position: relative;
+  top: -100px;
+  right: -60px;
+}
 .rogos {
   margin: 0 7% 0 10%;
   display: flex;
@@ -323,6 +344,33 @@ iframe {
     font-size: 1.2rem;
   }
 }
+@media screen and (max-width: 1550px) {
+  .works {
+    max-width: 850px;
+  }
+  .work6 {
+    width: 2%;
+  }
+  .work1 {
+    width: 45%;
+    margin: 0;
+  }
+  .work2 {
+    width: 45%;
+    margin: auto 0 auto 6%;
+  }
+  #gyaku .work2 {
+    margin: auto 6% auto 0;
+  }
+  .dekamoji {
+    width: 200px;
+    top: -40px;
+  }
+  .dekamoji2 {
+    width: 200px;
+    top: -40px;
+  }
+}
 @media screen and (max-width: 1400px) {
   .items .item {
     width: 15%;
@@ -333,6 +381,11 @@ iframe {
   }
   .item-title {
     font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .works {
+    width: 80%;
   }
 }
 
@@ -364,11 +417,20 @@ iframe {
     position: relative;
     top: 3px;
   }
+  .dekamoji {
+    width: 0px;
+  }
+  .dekamoji2 {
+    width: 0;
+  }
   .work1 {
     width: 100%;
   }
   .work2 {
     width: 100%;
+  }
+  #gyaku {
+    flex-wrap: wrap;
   }
   .work3 {
     width: 100%;
