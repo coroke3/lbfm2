@@ -353,17 +353,17 @@ iframe {
   }
   .work6 {
     width: 2%;
-    z-index: -10;
+    z-index: 0;
   }
   .work1 {
     width: 45%;
     margin: 0;
-    z-index: 0;
+    z-index: 2;
   }
   .work2 {
     width: 45%;
     margin: auto 0 auto 6%;
-    z-index: 0;
+    z-index: 2;
   }
   #gyaku .work2 {
     margin: auto 6% auto 0;
